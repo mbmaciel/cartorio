@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Serviços Cartorários - Mbmaciel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="hero hero-background animate">
+  <div class="hero-content">
+    <h1>Digitalização Especializada para Cartórios</h1>
+    <p>Transforme documentos físicos em segurança digital com agilidade e precisão.</p>
+    <a href="https://wa.me/5521982957672" class="hero-button" target="_blank">Fale com a equipe no WhatsApp</a>
+  </div>
+</header>
+
+  <section class="services animate">
+    <h2>Nossos Serviços</h2>
+    <div class="service-cards">
+      <div class="card animate">
+        <h3>Registro de Óbito</h3>
+        <p>Digitalização e conferência com foco em qualidade e agilidade.</p>
+      </div>
+      <div class="card animate">
+        <h3>Registro de Casamento</h3>
+        <p>Transcrição fiel de documentos com total confidencialidade.</p>
+      </div>
+      <div class="card animate">
+        <h3>Registro de Nascimento</h3>
+        <p>Organização e estruturação de certidões conforme normas cartorárias.</p>
+      </div>
+      <div class="card animate">
+        <h3>Registro de Imóveis</h3>
+        <p>Controle de transcrições imobiliárias com rigor técnico e normativo.</p>
+      </div>
+    </div>
+  </section>
+
+<section class="como-servico animate">
+  <h2>Como é o Serviço</h2>
+  <p>
+    Nossa equipe está preparada para lidar com documentos diversos, incluindo manuscritos antigos ou de difícil leitura, sempre garantindo precisão e qualidade. Também realizamos ajustes e conversões de documentos para formatos compatíveis com o CRC.
+  </p>
+  <p>
+    O trabalho é realizado de forma 100% remota, com total segurança e confidencialidade. Estamos expandindo nossos serviços para atender outros cartórios e estamos à disposição para colaborar com sua demanda.
+  </p>
+</section>
+
+<section class="about animate">
+  <h2>Quem Somos</h2>
+  <div class="team-container">
+    <div class="team-member">
+      <img src="wenia.png" alt="Pessoa 1" />
+      <h3>Wênia Cardozo</h3>
+      <p>Especialista em digitalização documental, com foco em registros civis e imobiliários. Trabalha há 2 anos na área. Tem experiência em digitação de documentos de difícil leitura.</p>
+    </div>
+    <div class="team-member">
+      <img src="mauricio.png" alt="Pessoa 2" />
+      <h3>Mauricio de Brito</h3>
+      <p>Programador de sistemas com quase 18 anos de experiência. Responsável por garantir a precisão nos processos. Especialista em conversão de formatos de documentos.</p>
+    </div>
+  </div>
+</section>
+
+  
+<section class="digitalizacao animate">
+  <div class="digitalizacao-content">
+    <div class="digitalizacao-text">
+      <h2>O que é a Digitalização de Cartórios?</h2>
+      <p>
+        A digitalização consiste em pegar todo o acervo físico do cartório, em papel, escanear as folhas de acordo com o Decreto 10.278 e indexá-los no sistema próprio fornecido pelo governo. Isso auxilia para que os serviços prestados para população possam ser feitos de forma ágil.
+      </p>
+      <p>
+        A quantidade de documentos que circulam em cartórios é gigantesca. A digitalização chega como uma solução moderna e acessível, ganhando cada vez mais espaço por otimizar as atividades e os resultados entregues por essas repartições.
+      </p>
+      <p>
+        A realização de procedimentos tão importantes em papel gera uma quantidade enorme de folhas manuseadas, o que além de causar danos ao meio ambiente, coloca em risco as informações contidas. No caso de incêndio ou alagamento, por exemplo, documentos se perderiam, o que não acontece se a documentação estiver salva em nuvem, com backup.
+      </p>
+      <p>
+        Portanto, a digitalização de cartórios é também uma forma de garantir a proteção para o cidadão que tem seus dados resguardados a partir de segurança digital avançada.
+      </p>
+    </div>
+    <div class="digitalizacao-image">
+      <img src="ilustra1.png" alt="Ilustração digitalização de documentos" />
+    </div>
+  </div>
+</section>
+
+<footer class="footer animate">
+    <p>© 2025 Mbmaciel • contato@mbmaciel.com</p>
+  </footer>
+
+  <a href="https://wa.me/5521982957672" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+    💬 Fale conosco
+  </a>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const animatedElements = document.querySelectorAll(".animate");
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, { threshold: 0.1 });
+
+      animatedElements.forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
