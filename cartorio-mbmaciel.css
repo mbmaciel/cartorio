@@ -49,7 +49,7 @@
   }
 
   .nav-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     color: var(--gold-light);
@@ -154,7 +154,7 @@
   }
 
   .hero-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: clamp(2.8rem, 5vw, 4.5rem);
     font-weight: 900;
     color: var(--parchment);
@@ -181,7 +181,7 @@
   }
 
   .hero-decree {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.18rem;
     color: var(--faded);
@@ -295,7 +295,7 @@
   }
 
   .doc-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--ink);
@@ -309,7 +309,7 @@
   }
 
   .doc-body {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.82rem;
     line-height: 1.8;
     color: var(--ink);
@@ -349,7 +349,7 @@
   }
 
   .seal-inner {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.55rem;
     font-weight: 700;
     color: var(--seal-red);
@@ -411,7 +411,7 @@
   .stat-item:last-child { border-right: none; }
 
   .stat-number {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     font-weight: 900;
     color: var(--ink);
@@ -450,13 +450,13 @@
 
   .section-label::before {
     content: '§';
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: var(--seal-red);
   }
 
   .section-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 900;
     line-height: 1.1;
@@ -497,7 +497,7 @@
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 3rem;
     font-weight: 900;
     color: rgba(154,123,46,0.15);
@@ -514,14 +514,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--seal-gold);
   }
 
   .team-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--parchment);
@@ -538,7 +538,7 @@
   }
 
   .team-bio {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.18rem;
     color: var(--aged);
@@ -550,7 +550,7 @@
   }
 
   .quem-somos-intro p {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.12rem;
     color: var(--aged);
@@ -596,7 +596,7 @@
   }
 
   .registro-icon {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     color: var(--seal-red);
     margin-bottom: 1rem;
@@ -604,7 +604,7 @@
   }
 
   .registro-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--ink);
@@ -665,7 +665,7 @@
   }
 
   .servico-content h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 0.4rem;
@@ -683,7 +683,7 @@
   }
 
   .big-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: clamp(5rem, 10vw, 9rem);
     font-weight: 900;
     font-style: italic;
@@ -713,14 +713,14 @@
   }
 
   .feature-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
 
   .feature-body {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.18rem;
     color: var(--aged);
@@ -759,7 +759,7 @@
     right: -2rem;
     top: 50%;
     transform: translateY(-50%) rotate(90deg);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 900;
     color: rgba(154,123,46,0.06);
@@ -777,7 +777,7 @@
   }
 
   .dig-text p {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.28rem;
     color: var(--aged);
@@ -841,7 +841,7 @@
   .process-step:last-child { border-bottom: none; }
 
   .step-num {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 900;
     color: rgba(154,123,46,0.3);
@@ -851,7 +851,7 @@
   }
 
   .step-content h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 700;
     color: var(--parchment);
@@ -916,7 +916,7 @@
 
   .cta-seal-inner {
     animation: spin-reverse 20s linear infinite;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.6rem;
     font-weight: 700;
     color: var(--seal-red);
@@ -940,7 +940,7 @@
   }
 
   .cta-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 900;
     color: var(--ink);
@@ -948,7 +948,7 @@
   }
 
   .cta-sub {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-size: 1.32rem;
     color: var(--faded);
@@ -975,7 +975,7 @@
   }
 
   .contact-link {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--parchment);
@@ -996,7 +996,7 @@
   }
 
   .footer-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
     color: var(--gold-light);
