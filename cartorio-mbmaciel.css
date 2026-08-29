@@ -744,15 +744,15 @@
     padding: 0.3rem 0.8rem;
   }
 
-  /* ===== DIGITALIZACAO ===== */
-  #digitalizacao {
+  /* ===== DIGITACAO ===== */
+  #digitacao {
     background: var(--ink);
     color: var(--parchment);
     position: relative;
     overflow: hidden;
   }
 
-  #digitalizacao::before {
+  #digitacao::before {
     content: 'DECRETO\A10.278';
     white-space: pre;
     position: absolute;
@@ -1171,7 +1171,7 @@
       font-size: 1.02rem;
     }
 
-    #digitalizacao::before {
+    #digitacao::before {
       display: none;
     }
 
